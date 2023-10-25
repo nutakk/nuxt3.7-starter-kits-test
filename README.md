@@ -5,10 +5,10 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 ## Setup
 
 Make sure to install the dependencies:
-# npm
-Req: Node >= v18.18.2
+# Requirements
+Node >= v18.18.2
 Consists of:
-# npm
+# Components
 1. Element plus ui set
 2. Tailwind css 
 3. Pinia
@@ -22,7 +22,7 @@ Consists of:
 9. Moment
 10. JWT-Decode
 
- ** Note:
+# Note:
  1. See example code to start using this starter kits. 
  2. If npm install got problem about gyp, remove canvas from package.json and try again
 
