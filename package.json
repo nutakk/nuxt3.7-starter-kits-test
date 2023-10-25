@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-start-kits",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.5",
+    "@nuxt/devtools": "^0.8.2",
+    "@nuxt/devtools-edge": "^0.8.2-28220322.d01ff8d",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@pinia/nuxt": "^0.4.11",
+    "element-plus": "^2.3.12",
+    "nuxt": "^3.7.0",
+    "unplugin-element-plus": "^0.8.0"
+  },
+  "dependencies": {
+    "@egoist/tailwindcss-icons": "^1.1.0",
+    "@element-plus/icons-vue": "^2.1.0",
+    "@iconify/json": "^2.2.108",
+    "@revolist/vue3-datagrid": "^3.6.17",
+    "canvas": "^2.11.2",
+    "chart.js": "^4.4.0",
+    "form-data": "^4.0.0",
+    "gsap": "^3.12.2",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.6",
+    "pm2": "^5.3.0",
+    "qrcode-vue3": "^1.6.8",
+    "socket.io-client": "^4.7.2",
+    "vue-chartjs": "^5.2.0"
+  }
+}
