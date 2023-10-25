@@ -5,8 +5,10 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 ## Setup
 
 Make sure to install the dependencies:
+# npm
 Req: Node >= v18.18.2
 Consists of:
+# npm
 1. Element plus ui set
 2. Tailwind css 
 3. Pinia
