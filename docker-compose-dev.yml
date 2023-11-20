@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  dev_contaniner:
+    image: node:16-alpine
+    command: sh -c "npm install --legacy-peer-deps && npm run dev -- --port 4500"
+    ports:
+      - 3030:4500
+    working_dir: /app
+    volumes:
+      - ./:/app
