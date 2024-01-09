@@ -13,7 +13,6 @@ const test = async (test: string) => {
         {{ name }}
       </div>
       <div class="m-2 bg-green-300 md:bg-purple-400 lg:bg-black w-[50%] md:w-full">
-        zzzz
       </div>
     </div>
   </div>

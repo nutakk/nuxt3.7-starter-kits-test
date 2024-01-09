@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const getName = (e) => {
+const getName = (e:any) => {
   console.log('xxx: ', e);
 }
 
