@@ -7,7 +7,7 @@ export const useConectivitiesStore = defineStore("connectivitiesStore", () => {
     {
       id: "A001",
       href: "#",
-      status: "processing",
+      status: "Processing",
       channal: "dine in",
       table: "5",
       time: "20.00",
@@ -17,32 +17,50 @@ export const useConectivitiesStore = defineStore("connectivitiesStore", () => {
           qty: 2,
           optionals: [
             {
-              optional: "Mineral Water11",
+              optional: "Ice",
+            },
+          ],
+        },
+        {
+          order: "Hamburger",
+          qty: 1,
+          optionals: [
+            {
+              optional: "No Mayonnause",
             },
             {
-              optional: "Mineral Water12",
+              optional: "No Lettuce",
             },
           ],
         },
       ],
     },
     {
-      id: "A001",
+      id: "A002",
       href: "#",
-      status: "processing",
-      channal: "dine in",
-      table: "5",
-      time: "20.00",
+      status: "Completely",
+      channal: "take away",
+      table: "2",
+      time: "18.00",
       orders: [
         {
           order: "Mineral Water",
-          qty: 2,
+          qty: 5,
           optionals: [
             {
-              optional: "Mineral Water11",
+              optional: "Ice",
+            },
+          ],
+        },
+        {
+          order: "Hamburger",
+          qty: 1,
+          optionals: [
+            {
+              optional: "No Mayonnause",
             },
             {
-              optional: "Mineral Water12",
+              optional: "No Lettuce",
             },
           ],
         },
