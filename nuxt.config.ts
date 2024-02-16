@@ -49,7 +49,7 @@ export default defineNuxtConfig({
   components: true,
   devtools: {
     // Enable devtools (default: true)
-    enabled: true,
+    enabled: false,
 
     // VS Code Server options
     // ...other options

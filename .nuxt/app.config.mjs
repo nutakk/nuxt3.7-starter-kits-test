@@ -1,6 +1,6 @@
 
 import { updateAppConfig } from '#app'
-import { defuFn } from 'C:/Users/nutak/Documents/GitHub/nuxt3.7-starter-kits-test/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/nut/Documents/GitHub/nuxt3.7-starter-kits-test/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

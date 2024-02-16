@@ -3,19 +3,18 @@ const route = useRoute();
 const { companyid, id } = route.params;
 
 definePageMeta({
-  layout: 'login',
+  layout: "login",
 });
 
-const name = ref('ake');
+const name = ref("ake");
 const testChange = () => {
-  console.log('===> ', 'hello' + name.value);
-  
-}
+  console.log("===> ", "hello" + name.value);
+};
 </script>
 <template>
   <div id="page-main" class="page-main">
-    {{ companyid }} : {{ id }} <input type="text" :value="name" @change="testChange()" />
+    {{ companyid }} : {{ id }}
+    <input type="text" :value="name" @change="testChange()" />
   </div>
 </template>
-<style scoped>
-</style>
+<style scoped></style>
