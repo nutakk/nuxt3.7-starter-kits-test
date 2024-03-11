@@ -2,6 +2,9 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'Ake': typeof import("../components/Ake.vue")['default']
+    'ComponentA': typeof import("../components/ComponentA.vue")['default']
+    'ComponentB': typeof import("../components/ComponentB.vue")['default']
+    'ComponentC': typeof import("../components/ComponentC.vue")['default']
     'Demo': typeof import("../components/Demo.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -413,6 +416,9 @@ declare module 'vue' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyAke': typeof import("../components/Ake.vue")['default']
+    'LazyComponentA': typeof import("../components/ComponentA.vue")['default']
+    'LazyComponentB': typeof import("../components/ComponentB.vue")['default']
+    'LazyComponentC': typeof import("../components/ComponentC.vue")['default']
     'LazyDemo': typeof import("../components/Demo.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -827,6 +833,9 @@ declare module 'vue' {
 }
 
 export const Ake: typeof import("../components/Ake.vue")['default']
+export const ComponentA: typeof import("../components/ComponentA.vue")['default']
+export const ComponentB: typeof import("../components/ComponentB.vue")['default']
+export const ComponentC: typeof import("../components/ComponentC.vue")['default']
 export const Demo: typeof import("../components/Demo.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -1238,6 +1247,9 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyAke: typeof import("../components/Ake.vue")['default']
+export const LazyComponentA: typeof import("../components/ComponentA.vue")['default']
+export const LazyComponentB: typeof import("../components/ComponentB.vue")['default']
+export const LazyComponentC: typeof import("../components/ComponentC.vue")['default']
 export const LazyDemo: typeof import("../components/Demo.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']

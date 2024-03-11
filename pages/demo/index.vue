@@ -8,14 +8,41 @@
       <div
         class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
       >
-        <Demo />
+        <Demo v-for="post in posts" :key="post.id" v-bind="post" />
       </div>
     </div>
   </div>
 </template>
+<script>
+import { ref } from "vue";
+import Demo from "~/components/Demo.vue";
 
-<script setup>
-const getName = (e) => {
-  console.log("xxx: ", e);
+export default {
+  setup() {
+    const posts = ref([
+      {
+        id: "A001",
+        component: "Demo",
+        href: "#",
+        status: "Pendding",
+        channal: "Take Away",
+        table: "01",
+        time: "12.00",
+      },
+      {
+        id: "A001",
+        component: "Demo",
+        href: "#",
+        status: "Pendding",
+        channal: "Take Away",
+        table: "01",
+        time: "12.00",
+      },
+    ]);
+
+    return {
+      posts,
+    };
+  },
 };
 </script>
